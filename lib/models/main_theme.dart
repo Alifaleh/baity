@@ -7,12 +7,17 @@ ThemeData mainTheme = ThemeData(
     headline1: TextStyle(
       color: Colors.white,
       fontSize: 30,
-      fontFamily: 'Montserrat',
     ),
     bodyText2: TextStyle(
       color: Colors.white,
-      fontSize: 25,
-      fontFamily: 'Roboto',
+      fontSize: 11,
     ),
+  ),
+  tabBarTheme: TabBarTheme(
+    indicator: BoxDecoration(
+      color: Color(0x00000000),
+    ),
+    unselectedLabelColor: Colors.white,
+    labelColor: Colors.black,
   ),
 );

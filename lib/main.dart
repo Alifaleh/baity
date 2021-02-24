@@ -4,7 +4,7 @@ import "package:flutter/material.dart";
 import './models/main_theme.dart';
 
 // screens
-import './screens/main_screen.dart';
+import './screens/tab_screen.dart';
 
 void main() {
   runApp(Baity());
@@ -17,9 +17,9 @@ class Baity extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: mainTheme,
-      initialRoute: MainScreen.routeName,
+      initialRoute: TabScreen.routeName,
       routes: {
-        MainScreen.routeName: (ctx) => MainScreen(),
+        TabScreen.routeName: (ctx) => TabScreen(),
       },
     );
   }
